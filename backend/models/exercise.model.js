@@ -1,6 +1,6 @@
-const mongoose = require('mongoose'),
+const mongoose = require('mongoose');
+const Schema =  mongoose.Schema;
 
-const Schemaa = mongoose.Schema;
 
 const excerciseSchema = new Schema({
     username: { type: String, required: true },
